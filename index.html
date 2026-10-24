@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mis Autos Favoritos</title>
+    <style>
+      body {
+        background: rgb(35, 22, 49);
+        color: rgb(247, 247, 247);
+        font-family: cursive, 'Times New Roman', Times, serif;
+        text-align: center;
+      }
+
+      .galeria {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin: 30px auto;
+      }
+
+      .tarjeta {
+        width: 400;
+      }
+
+      .tarjeta img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mis Autos Favoritos</h1>
+
+    <div class="galeria">
+      <div class="tarjeta">
+        <img src="https://cdn.rmsothebys.com/8/d/9/4/a/2/8d94a2eee5f7cf9192bde6c2c2285aa17ec2778b.webp" alt="Auto 1">
+        <p>Ferrari FXX-K EVO</p>
+      </div>
+
+      <div class="tarjeta">
+        <img src="https://m283arabia.com/motor283/uploads/articles/8821/792x492/motor283-pagani-hypercars-zonda-hp-huayra-r-zonda-r-roadster-s-1760980577546.jpg" alt="Auto 2">
+        <p>Pagani Zonda R</p>
+      </div>
+
+      <div class="tarjeta">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWOHHCKZevbpMEJx7ESzgMjfCUWS4fcZx6O4S6pOX0CVUvMcTaxqiBanJm&s=10" alt="Auto 3">
+        <p>Mazda 787B</p>
+      </div>
+    </div>
+  </body>
+</html>
